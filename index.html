@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Best Collection 365</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      background: #f8fafc;
+      margin: 0;
+      color: #222;
+    }
+    header {
+      background: #3f51b5;
+      color: #fff;
+      padding: 2.5rem 1rem 1.5rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(63,81,181,.08);
+    }
+    header h1 {
+      margin: 0 0 .5rem 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.1rem;
+      opacity: .95;
+    }
+    .container {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 2rem 1.2rem;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .product {
+      flex: 1 1 220px;
+      max-width: 220px;
+      background: #f9f9ff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(63,81,181,.06);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.2rem .7rem 1.7rem .7rem;
+    }
+    .product img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      background: #eee;
+      box-shadow: 0 1px 4px rgba(63,81,181,.03);
+    }
+    .product-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: .5rem;
+      text-align: center;
+    }
+    .product-desc {
+      font-size: .97rem;
+      color: #555;
+      margin-bottom: 1rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+    .affiliate-btn {
+      display: inline-block;
+      background: #e95f4b;
+      color: #fff;
+      padding: .6rem 1.3rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: .99rem;
+      transition: background .2s;
+      margin-bottom: .5rem;
+      box-shadow: 0 1px 6px rgba(233,95,75,.12);
+    }
+    .affiliate-btn:hover {
+      background: #d13c21;
+    }
+    @media (max-width: 760px) {
+      .container {
+        padding: 1rem .5rem;
+      }
+      .product-list {
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      .product {
+        max-width: 100%;
+      }
+    }
+    @media (max-width: 420px) {
+      header h1 {
+        font-size: 1.4rem;
+      }
+      .container {
+        padding: .7rem .3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Best Collection 365</h1>
+    <p>Discover handpicked products and exclusive deals!</p>
+  </header>
+  <div class="container">
+    <div class="product-list">
+      <div class="product">
+        <img src="https://via.placeholder.com/120x120?text=Product+1" alt="Product 1">
+        <div class="product-title">Product 1 Name</div>
+        <div class="product-desc">A short description for Product 1. Highlight its top features and benefits.</div>
+        <a href="#" class="affiliate-btn" target="_blank">Shop Now</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/120x120?text=Product+2" alt="Product 2">
+        <div class="product-title">Product 2 Name</div>
+        <div class="product-desc">Brief description of Product 2. Why should visitors buy it?</div>
+        <a href="#" class="affiliate-btn" target="_blank">Buy Now</a>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/120x120?text=Product+3" alt="Product 3">
+        <div class="product-title">Product 3 Name</div>
+        <div class="product-desc">Product 3 highlights and what makes it special.</div>
+        <a href="#" class="affiliate-btn" target="_blank">View Offer</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
